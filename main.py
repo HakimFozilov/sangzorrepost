@@ -14,16 +14,16 @@ SESSION_STRING = os.getenv("SESSION_STRING")
 
 ADMIN_ID = 5747999018 
 SOURCE_CHANNELS = [
-    "@Rasmiy_xabarlar_Official", "@shoubizyangiliklari", 
-    "@huquqiyaxborot", "@uzb_meteo", "@xavfsizlik_uz", 
-    "@qisqasitv", "@Jizzax_Haydovchilari", "@bankxabar", 
-    "@Jurnalist24uz", "@Jizzax24kanal"
+    "Rasmiy_xabarlar_Official", "shoubizyangiliklari", 
+    "huquqiyaxborot", "uzb_meteo", "xavfsizlik_uz", 
+    "qisqasitv", "Jizzax_Haydovchilari", "bankxabar", 
+    "Jurnalist24uz", "Jizzax24kanal"
 ]
 TARGET_CHANNEL = "@Sangzoruz1"
 TARGET_LINK = "https://t.me/Sangzoruz1"
 
-POST_INTERVAL = 600 
-BATCH_SIZE = 5 
+POST_INTERVAL = 300 
+BATCH_SIZE = 1 
 message_queue = deque()
 processed_hashes = deque(maxlen=300)
 
